@@ -1,0 +1,53 @@
+.form_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.form-title {
+  width: 50vw;
+  background-color: #f0ebf8;
+  padding: 2rem;
+  border-radius: 6px;
+}
+
+.input_container {
+  background-color: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0 1px 1px 0 rgba(0, 0, 0, 0.141), 0 1px 3px 0 rgba(0, 0, 0, 0.122);
+}
+.hr_line {
+  border: 1px solid red;
+}
+.question_container {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.MuiInputBase-input {
+  width: 40vw !important;
+}
+.second_container {
+  font-size: 2rem;
+}
+.select_box {
+  justify-content: right;
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: column;
+}
+
+.select_container {
+  margin-bottom: 1.5rem;
+}
+
+.field_box {
+  margin-bottom: 1.5rem;
+}
